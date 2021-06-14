@@ -1,0 +1,122 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu&display=swap');
+
+:root{
+    --main-color: #065F46;
+    --shade-color:#D1FAE5;
+    --white-color:white;
+}
+hr{
+    margin:3rem  0rem ;
+}
+/* body */
+body{
+    font-family: 'Ubuntu', sans-serif;
+    margin: 0px;
+}
+
+
+/* container */
+.container{
+    padding:1rem 1rem;
+}
+
+/* centered container */
+.container-center{
+    text-align: center;
+    max-width: 60%;
+    display: block;
+    margin: auto;
+
+}
+
+
+/* links */
+.link{
+    text-decoration: none;
+    margin:3px;
+}
+.link-primary{
+    color: var(--white-color);
+    border: 2px solid;
+    padding: 0.5rem;
+    border-radius: 1rem;
+    background-color:var(--main-color);
+}
+.link-secondary{
+    color:var(--main-color);
+    border: 2px solid  ;
+    padding: 0.5rem;
+    border-radius: 1rem;
+}
+
+
+/* lists */
+.list{
+    padding: 1rem 1rem;
+}
+.no-dot{
+    list-style-type: none;
+}
+.list-inline{
+    display: inline;
+    margin:1rem;
+}
+
+
+/* nav */
+.navigation{
+      
+    background-color: var(--main-color);
+    padding: 1rem;
+    display: block;
+    margin: 0rem;
+    border-bottom-left-radius:1rem ;
+}
+.navigation .navi-hero{
+    font-size: xx-large;
+    color: var(--white-color);
+}
+.navigation .link{
+        color: var(--white-color);
+}
+.navigation .no-dot{
+         text-align: right;
+}
+
+
+
+/* header */
+.hero .hero-header{
+    margin-top: 3rem;
+}
+.contxt{
+    color: var(--main-color);
+}
+
+
+/* section */
+section{
+    padding: 1rem 1rem;
+}
+.og{
+    background-color: var(--shade-color);
+}
+
+/* footer */
+.footer
+{
+    padding: 1rem 1rem;
+    border-top-right-radius: 1rem;
+    background-color: var(--main-color);
+}
+.footer-hero{
+    color: var(--white-color);
+    font-weight:bold ;
+    font-size: x-large;
+}
+.footer .link{
+    color: var(--white-color);
+}
+.footer .no-dot{
+    padding-inline-start: 0px
+}

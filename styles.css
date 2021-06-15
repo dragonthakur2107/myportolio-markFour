@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Ubuntu&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Hind+Siliguri&family=Kanit:wght@300&display=swap');
 
 :root{
     --main-color: #065F46;
@@ -10,7 +10,7 @@ hr{
 }
 /* body */
 body{
-    font-family: 'Ubuntu', sans-serif;
+    font-family: 'Kanit', sans-serif;
     margin: 0px;
 }
 
@@ -101,17 +101,29 @@ heroimg{
 
 
 /* section */
-section{
+.section{
     padding: 1rem 1rem;
 }
 .og{
     background-color: var(--shade-color);
 }
+.section .link{
+    color:var(--main-color);
+    margin: 0px;
+}
+.section .container-center{
+    font-size: x-large;
+}
+.section .link-primary{
+    color: var(--white-color);
+    text-decoration: none;
+    
+}
 
 /* footer */
 .footer
 {
-    padding: 1rem 1rem;
+    padding: 2rem 1rem;
     border-top-right-radius: 1rem;
     background-color: var(--main-color);
 }

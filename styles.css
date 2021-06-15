@@ -67,7 +67,7 @@ body{
 .navigation{
       
     background-color: var(--main-color);
-    padding: 1rem;
+    padding: 0.5rem;
     display: block;
     margin: 0rem;
     border-bottom-left-radius:1rem ;
@@ -91,6 +91,12 @@ body{
 }
 .contxt{
     color: var(--main-color);
+}
+heroimg{
+    text-align: center;
+    max-width: 500px;
+    margin:auto;
+    display: block;
 }
 
 

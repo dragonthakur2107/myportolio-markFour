@@ -30,6 +30,12 @@ body{
     margin: auto;
 
 }
+h3{
+        padding-top: 3rem;
+}
+.align-left{
+    text-align: left;
+}
 
 
 /* links */

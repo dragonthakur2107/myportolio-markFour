@@ -28,7 +28,7 @@
 
     <!-- header -->
     <header class="hero container-center">
-        <h1 class=hero-header>Making our first<span class="contxt"> CLI APP</span></h1>
+        <h1 class=hero-header>Basics of<span class="contxt"> JavaScript</span></h1>
     </header>
 
 
@@ -36,12 +36,11 @@
     <section class="section ">
         <!-- container -->
         <div class="container-center">
-            <h3>What is a CLI APP ?</h3>
-            <p>The best answer to this is apps we use, for example when we want to post something on our instagram
-                story, we would click on add story. The way we interact with the system is by clicking a button,
-                this is known as <strong>GUI(Graphical user interface).</strong></p>
-            <p>Similarly <strong>CLI means command line interface</strong>, where we right a code to interact with
-                the system.</p>
+            <h3>What is a JavaScript?</h3>
+            <p>It is a prograaming language like C/C++ but the main difference is that, it is platform independent.</p>
+           
+
+
             <h3>Requirements?</h3>
             <p class="align-left">To get started you will need this things:-</p>
             <ul class="align-left">
@@ -58,7 +57,7 @@
             
             <h4>How to open a new repl-</h4>
             <ul>
-                <li>You will be on home page of repl.it, now click "+ New repl".<img  class="heroimg" src="blogimg-1.png"></li>
+                <li>You will be on home page of repl.it, now click "+ New repl".<img  class="heroimg" src="blog-1 images/blogimg-1.png"></li>
                 <li>Now a small window will open. As we are going to code in javascript, type "node.js" , select it and create repl.</li>
                 <img  class="heroimg" src="blogimg-2.png">
             </ul>
@@ -66,26 +65,69 @@
             <h3> How to output (print) something?</h2>
             <p>To see how, we will output our name-</p>
             <li>Type "console.log("Your_name") " as shown.</li>
-            <img class="heroimg"src="blogimg-3.png">
+            <img class="heroimg"src="blog-1 images/blogimg-3.png">
             <small><i>Red is for code, Green is for output.</i></small>
 
             <h3>How to read inputs?</h3>
             <ul>
                 <li>Add readlineSync() as a dependency</li>
-                <img class="heroimg"src="blogimg-4.png">
+                <img class="heroimg"src="blog-1 images/blogimg-4.png">
                 <li>Now create a new variable (in my case userName) and store ask user to give his/her name.</li>
-                <img class="heroimg"src="blogimg-5.png">
+                <img class="heroimg"src="blog-1 images/blogimg-5.png">
             </ul>
 
 
             <h3>Adding welcome to username.</h3>
             <li>declare a new variable (here is welcomeUser) and do as shown below.</li>
-            <img class="heroimg" src="blogimg-6.png">
+            <img class="heroimg" src="blog-1 images/blogimg-6.png">
             <p>The output will look like this-</p> 
-            <img class="heroimg" src="blogimg-7.png">
+            <img class="heroimg" src="blog-1 images/blogimg-7.png">
 
             <h3>How to use conditions</h3>
             <p>Here we will ask user a quesion about our age and give output, whether user was right or wrong.</p>
+            <li>create a new variable to read answer ( shown here is "answer").</li>
+            <li>then use "if"and write (answer=="yes").</li>
+            <li>If answer is "yes" console will print "right".</li>
+            <li>If answer is "no" or anything else console will print "wrong".</li>
+            <p>Output will be shown as below-</p>
+            <img class="heroimg" src="blog-1 images/blogimg-8.png">
+            <p>Output-</p>
+            <img class="heroimg" src="blog-1 images/blogimg-9.png">
+
+            <h3>Incrementation</h3>
+            <p>Incremention means increasing value of a variable by 1. Here, if user gives right answer, increment score by 1.</p>
+           <li>declare a global variable (here score) and initialise it to 0.(green)</li>
+           <li>In right condition put "score = score+1" or "score++" both will do same job.(red)</li>
+           <li>Print score.(blue)</li>
+           <img class="heroimg" src="blog-1 images/blogimg-10.png">
+           <p>Output-</p>
+           <img class="heroimg" src="blog-1 images/blogimg-11.png">
+
+           <h3>Using functions</h3>
+           <p>To see how functions are used we will add two numbers, suppose their are two variables a and b, we want to add them </p>
+           <li>Use keyword "function" and then name the function (here add()) put a,b in brackets.(green)</li>
+           <li>use keyword return() and then put "a+b".(red)</li>
+           <li>create a new variable and call function through it.(yellow)</li>
+           <img class="heroimg" src="blog-1 images/blogimg-12.png">
+
+           <h3>Using functions to check answer of a question</h3>
+           <p>we will use the question that we used earlier in conditional operator(if-else).</p>
+           <li>So declare two varibles for question and answer, right the question and correct answer in it.(green)</li>
+           <li>create a function and put question and  correct answer as arguement.(yellow)</li>
+           <li>Now, we just have to use the if and else conditions taht we used before by just changing some variables.(red)</li>
+           <li>Call the fucntion(white)</li>
+           <img class="heroimg" src="blog-1 images/blogimg-13.png">
+
+           <h3>Looping</h3>
+           <p>Looping is when we want a process to happen more than one time. Here, we will see how to print your name five times.</p>
+           <li>Use keyword for() and the in bracket write i=0; i < 5; i++ </li>
+           <li>put console.log statement in it and your name.</li>
+           <img class="heroimg" src="blog-1 images/blogimg-14.png">
+           <small><i>Note : Here we are starting from zero and will go till 4 and when i is incremented again the loop will break because the condition has been met.</i></small>
+           <p>Output-</p>
+           <img class="heroimg" src="blog-1 images/blogimg-15.png">
+           
+
         </div>
 
         </div>

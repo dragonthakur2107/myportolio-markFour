@@ -59,6 +59,11 @@ h3{
 .link-active{
     font-weight: bold;
 }
+.link-div{
+    display: block;
+    margin-top: 1rem;
+    padding-bottom: 1rem;
+}
 
 /* lists */
 .list{
@@ -77,7 +82,7 @@ h3{
 .navigation{
       
     background-color: var(--main-color);
-    padding: 0.5rem;
+    padding-top:  0.5rem;
     display: block;
     margin: 0rem;
     border-bottom-left-radius:1rem ;

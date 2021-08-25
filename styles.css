@@ -82,18 +82,21 @@ h3{
 .navigation{
       
     background-color: var(--main-color);
-    padding-top:  0.5rem;
+    padding-top: 0.5rem;
     display: block;
     margin: 0rem;
     border-bottom-left-radius:1rem ;
     border-bottom-right-radius: 1rem;
+    
 }
 .navigation .navi-hero{
-    font-size: xx-large;
     color: var(--white-color);
+    margin:0rem;
+    font-size: xx-large;
 }
 .navigation .link{
         color: var(--white-color);
+        margin:0rem 1rem;
 }
 .navigation .no-dot{
          text-align: right;

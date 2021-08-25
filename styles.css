@@ -119,7 +119,7 @@ h3{
 
 /* section */
 .section{
-    padding: 1rem 1rem;
+    padding-bottom: 1rem ;
 }
 .og{
     background-color: var(--shade-color);
